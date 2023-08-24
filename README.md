@@ -1,4 +1,4 @@
-# pandas-challenge
+# District-wide standardized test results analysis
 
 ### <ins>Goal of the project:</ins>
 Analyzing school and standardized test data to showcase obvious trends in school performance. 
