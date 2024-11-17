@@ -1,18 +1,64 @@
-# District-wide standardized test results analysis
+# District-wide Standardized Test Results Analysis
 
-### <ins>Goal of the project:</ins>
-Analyzing school and standardized test data to showcase obvious trends in school performance. 
+---
 
-### <ins>Technology:</ins> 
-Pandas and Jupyter Notebook
+### **Goal of the Project**  
+Analyze school and standardized test data to identify trends in school performance, including how factors such as school size, budget, and type impact test scores.
 
-### <ins>Steps:</ins>
-1. **district summary:** after analyzng the district-wide standardized test results, I aggregated the data to create a high-level snapshot of the district's key metrics in a DataFrame. It includes total number of schools and students, total budget, average and passing  math and reading scores as well as overall passing  scores across the schools.
-2. **school summary:** after performing necessary calculations, I created a DataFrame that summarizes key metrics about each school.It includes school type, school size (total number of students), school budget both total and per student, average and passing  math and reading scores.
+---
 
-### <ins>Trends in school performance:</ins>
-- As a whole, reading scores are a little bit higher than math scores,across different types of schools.
-- As a whole, schools with higher budgets, did not yield better test results. By contrast, schools with higher spending 645-675 per student actually underperformed compared to schools with smaller budgets (585 per student).
-- As a whole, smaller and medium sized schools dramatically out-performed large sized schools on passing math performances (89-91% passing vs 67%).
-- As a whole, charter schools out-performed the public district schools across all metrics. However, more analysis will be required to glean if the effect is due to school practices or the fact that charter schools tend to serve smaller student populations per school.
+### **Technology**  
+- **Libraries**: Pandas  
+- **Tools**: Jupyter Notebook  
+
+---
+
+### **Steps Taken**
+
+1. **District Summary**  
+   - Aggregated district-wide standardized test results to create a high-level overview of key metrics.  
+   - Metrics include:
+     - Total number of schools and students
+     - Total budget
+     - Average math and reading scores
+     - Percentage of students passing math and reading
+     - Overall passing percentage
+
+2. **School Summary**  
+   - Generated a detailed summary of key metrics for each school.  
+   - Metrics include:
+     - School type
+     - Total number of students (school size)
+     - Total and per-student budgets
+     - Average math and reading scores
+     - Percentage of students passing math and reading
+
+---
+
+### **Key Insights and Trends**
+
+1. **Reading Scores vs. Math Scores**  
+   - Reading scores are generally higher than math scores across all school types.
+
+2. **Impact of Budget on Performance**  
+   - Higher spending per student (e.g., $645–$675) did not correlate with better test results.  
+   - Schools with lower spending (e.g., <$585 per student) often performed better.  
+
+3. **School Size and Performance**  
+   - Smaller and medium-sized schools significantly outperformed larger schools in math performance:
+     - **Small/Medium Schools**: 89-91% passing  
+     - **Large Schools**: 67% passing  
+
+4. **Charter Schools vs. Public District Schools**  
+   - Charter schools outperformed public district schools across all metrics.  
+   - Additional analysis is needed to determine whether this is due to school practices or smaller student populations in charter schools.
+
+---
+
+### **Additional Notes**  
+This project demonstrates the value of exploratory data analysis in identifying key performance drivers in education. Future work could include:
+- Investigating specific practices of high-performing schools.
+- Exploring demographic or geographic factors that influence test performance.
+
+---
 
